@@ -1,0 +1,117 @@
+@font-face { /* CSS at-rule at the top */
+    src: url(Inter.ttf);
+    font-family: inter;
+}
+
+body { 
+    /* box model */
+    margin: 0;
+    /* typography */
+    font-family: inter;
+    /* visual */
+    box-sizing: border-box;
+}
+
+.background {
+    /* positioning */
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    /* box model */
+    width: 550px;
+    height: 729px;
+    /* typography */
+    text-align: center;
+    /* visual */
+    background-color: #1F2937;
+    transform: translate(-50%, -50%);
+}
+
+.main {
+    /* positioning */
+    display: flex;
+    width: 550px;
+    height: 285px;
+    /* box model */
+    margin-bottom: 36px;
+    /* typography */
+    color: #FFFFFF;
+    /* visual */
+    background-color: #6943FF;
+    flex-direction: column;
+}
+
+.header {
+    /* box model */
+    margin-top: 33px;
+    margin-bottom: 30px;
+    /* typography */
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+}
+
+.input {
+    /* positioning */
+    width: 117px;
+    height: 83px;
+    /* box model */
+    margin-left: 216px;
+    /* typography */
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24.39px;
+    color: #FFFFFF;
+    text-align: center;
+    /* visual */
+    background-color: transparent;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+}
+
+.button {
+    /* positioning */
+    width: 117px;
+    height: 42px;
+    /* box model */
+    margin-top: 25px;
+    margin-bottom: 24px;
+    margin-left: 217px;
+    /* typography */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #3D3D3D;
+    /* visual */
+    border: none;
+    border-radius: 5px;
+}
+
+.conversionUnit {
+    /* positioning */
+    width: 500px;
+    height: 108.57px;
+    /* box model */
+    margin-top: 23.43px;
+    margin-left: 25px;
+    /* visual */
+    background-color: #273549;
+}
+
+.units {
+    /* box model */
+    padding-top: 31px;
+    /* typography */
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #CCC1FF;
+}
+
+.conversion {
+    /* typography */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #FFFFFF;
+}
