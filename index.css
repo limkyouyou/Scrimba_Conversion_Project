@@ -15,7 +15,7 @@ body {
 .background {
     /* positioning */
     position: absolute;
-    top: 70%;
+    top: 50%;
     left: 50%;
     /* box model */
     width: 550px;
